@@ -49,7 +49,7 @@ params:
 
   label:
     text: "Planète Dev"
-    icon: /main-logo.png
+    icon: "https://i.ibb.co/Vv4XHFR/main-logo.png"
     iconHeight: 35
 
   # home-info mode
