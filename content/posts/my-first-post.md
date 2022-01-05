@@ -21,7 +21,7 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 cover:
-    image: "https://cdn.pixabay.com/photo/2014/02/02/17/40/photos-256887_960_720.jpg" # image path/url
+    image: "https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_960_720.jpg" # image path/url
     alt: "Image test" # alt text
     caption: "Image test" # display caption under cover
     relative: true # when using page bundles set this to true
