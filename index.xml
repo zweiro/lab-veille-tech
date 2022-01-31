@@ -9,32 +9,14 @@
       <link>https://zweiro.github.io/lab-veille-tech/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://zweiro.github.io/lab-veille-tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jan 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://zweiro.github.io/lab-veille-tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ce titre donne envie de lire, non ?</title>
-      <link>https://zweiro.github.io/lab-veille-tech/posts/my-first-post/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <title>Construire une bonne présence sur GitHub</title>
+      <link>https://zweiro.github.io/lab-veille-tech/posts/presence-github/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
       
-      <guid>https://zweiro.github.io/lab-veille-tech/posts/my-first-post/</guid>
-      <description>Desc Text.</description>
-    </item>
-    
-    <item>
-      <title>Et celui-ci ?</title>
-      <link>https://zweiro.github.io/lab-veille-tech/posts/my-second-post/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://zweiro.github.io/lab-veille-tech/posts/my-second-post/</guid>
-      <description>Desc Text.</description>
-    </item>
-    
-    <item>
-      <title>Aller, j&#39;arrête...</title>
-      <link>https://zweiro.github.io/lab-veille-tech/posts/my-third-post/</link>
-      <pubDate>Mon, 14 Sep 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://zweiro.github.io/lab-veille-tech/posts/my-third-post/</guid>
-      <description>Desc Text.</description>
+      <guid>https://zweiro.github.io/lab-veille-tech/posts/presence-github/</guid>
+      <description>Depuis quelques années, GitHub est devenu une plateforme de référence dans le domaine du développement web. Si elle était dans un premier temps très axée sur la collaboration entre équipes et projets, elle s’est peu à peu imposée comme outil de présentation de son savoir-faire au reste du monde ; un portfolio qui se tient à jour automatiquement finalement. Mais comment obtenir le meilleur de cette opportunité ? Voici un petit résumé de mes lectures</description>
     </item>
     
     <item>
