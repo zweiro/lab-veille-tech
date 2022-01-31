@@ -3,7 +3,8 @@ title: "DevOps, Qu’est-ce que c’est ?"
 date: 2022-01-09T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Tag 1", "Tag 2"]
+tags: ["DevOps", "Travail d'équipe", "Déploiement"]
+categories: ["Vulgarisation"]
 author: "Robin Z."
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -23,7 +24,7 @@ ShowBreadCrumbs: true
 cover:
     image: "https://images.unsplash.com/photo-1580894908361-967195033215?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" # image path/url
     # alt: "Image test" # alt text
-    caption: "Image test" # display caption under cover
+    # caption: "Image test" # display caption under cover
     relative: true # when using page bundles set this to true
     hidden: false # only hide on current single page
 ---

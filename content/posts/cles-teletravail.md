@@ -3,7 +3,8 @@ title: "Les clés du télétravail"
 date: 2022-01-09T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Tag 1", "Tag 2"]
+tags: ["Environnement de travail", "Travail d'équipe", "Motivation"]
+categories: ["Vie de développeur"]
 author: "Robin Z."
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -24,8 +25,8 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 cover:
     image: "https://cdn.pixabay.com/photo/2020/04/18/15/48/telework-5059653_960_720.png" # image path/url
-    alt: "Image test" # alt text
-    caption: "Image test" # display caption under cover
+    # alt: "Image test" # alt text
+    # caption: "Image test" # display caption under cover
     relative: true # when using page bundles set this to true
     hidden: false # only hide on current single page
 ---

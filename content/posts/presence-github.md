@@ -3,7 +3,8 @@ title: "Construire une bonne présence sur GitHub"
 date: 2022-01-09T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Tag 1", "Tag 2"]
+tags: ["Git", "Portfolio", "Partage"]
+categories: ["Vie de développeur"]
 author: "Robin Z."
 # author: ["Me", "You"] # multiple authors
 showToc: true

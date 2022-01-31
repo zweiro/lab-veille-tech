@@ -3,7 +3,8 @@ title: "Expérimentation : Écrire des messages de commit efficaces"
 date: 2022-01-09T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Tag 1", "Tag 2"]
+tags: ["Configuration", "Git", "Travail d'équipe"]
+categories: ["Expérimentation"]
 author: "Robin Z."
 # author: ["Me", "You"] # multiple authors
 showToc: true
