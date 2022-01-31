@@ -2,19 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zweiro.github.io/lab-veille-tech/tags/apprentissage/</loc>
+    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://zweiro.github.io/lab-veille-tech/categories/</loc>
+    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://zweiro.github.io/lab-veille-tech/tags/configuration/</loc>
+    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
+  </url><url>
     <loc>https://zweiro.github.io/lab-veille-tech/posts/presence-github/</loc>
+    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://zweiro.github.io/lab-veille-tech/tags/devops/</loc>
     <lastmod>2022-01-09T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://zweiro.github.io/lab-veille-tech/posts/dev-ops/</loc>
     <lastmod>2022-01-09T11:30:03+00:00</lastmod>
   </url><url>
+    <loc>https://zweiro.github.io/lab-veille-tech/tags/d%C3%A9ploiement/</loc>
+    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://zweiro.github.io/lab-veille-tech/tags/environnement-de-travail/</loc>
+    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://zweiro.github.io/lab-veille-tech/categories/exp%C3%A9rimentation/</loc>
+    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
+  </url><url>
     <loc>https://zweiro.github.io/lab-veille-tech/posts/exp-ecrire-commits/</loc>
+    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://zweiro.github.io/lab-veille-tech/tags/git/</loc>
     <lastmod>2022-01-09T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://zweiro.github.io/lab-veille-tech/posts/cles-teletravail/</loc>
     <lastmod>2022-01-09T11:30:03+00:00</lastmod>
   </url><url>
+    <loc>https://zweiro.github.io/lab-veille-tech/tags/motivation/</loc>
+    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://zweiro.github.io/lab-veille-tech/tags/partage/</loc>
+    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
+  </url><url>
     <loc>https://zweiro.github.io/lab-veille-tech/</loc>
+    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://zweiro.github.io/lab-veille-tech/tags/portfolio/</loc>
     <lastmod>2022-01-09T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://zweiro.github.io/lab-veille-tech/posts/</loc>
@@ -23,16 +56,17 @@
     <loc>https://zweiro.github.io/lab-veille-tech/posts/progresser-developpeur/</loc>
     <lastmod>2022-01-09T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://zweiro.github.io/lab-veille-tech/tags/tag-1/</loc>
-    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://zweiro.github.io/lab-veille-tech/tags/tag-2/</loc>
-    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
-  </url><url>
     <loc>https://zweiro.github.io/lab-veille-tech/tags/</loc>
     <lastmod>2022-01-09T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://zweiro.github.io/lab-veille-tech/categories/</loc>
+    <loc>https://zweiro.github.io/lab-veille-tech/tags/travail-d%C3%A9quipe/</loc>
+    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://zweiro.github.io/lab-veille-tech/categories/vie-de-d%C3%A9veloppeur/</loc>
+    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://zweiro.github.io/lab-veille-tech/categories/vulgarisation/</loc>
+    <lastmod>2022-01-09T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://zweiro.github.io/lab-veille-tech/about/</loc>
   </url>

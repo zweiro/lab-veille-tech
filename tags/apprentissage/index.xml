@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Apprentissage on Planète Dev</title>
+    <link>https://zweiro.github.io/lab-veille-tech/tags/apprentissage/</link>
+    <description>Recent content in Apprentissage on Planète Dev</description>
+    <image>
+      <url>https://zweiro.github.io/lab-veille-tech/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://zweiro.github.io/lab-veille-tech/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 09 Jan 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://zweiro.github.io/lab-veille-tech/tags/apprentissage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Progresser au quotidien en tant que développeur</title>
+      <link>https://zweiro.github.io/lab-veille-tech/posts/progresser-developpeur/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/posts/progresser-developpeur/</guid>
+      <description>On le sait, il est impossible de tout savoir sur le développement et la programmation en général. C’est un domaine beaucoup trop vaste pour une seule personne et c’est aussi ce qui en fait un métier extrêmement passionnant. Néanmoins, plus on a une vue d’ensemble de ces compétences, plus les choix aux moments de réaliser un projet risquent d’être judicieux. Mais alors, comment faire pour progresser au quotidien en tant que développeur ? Voici un petit résumé de mes lectures :</description>
+    </item>
+    
+  </channel>
+</rss>

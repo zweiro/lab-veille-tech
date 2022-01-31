@@ -11,20 +11,92 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 09 Jan 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://zweiro.github.io/lab-veille-tech/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tag 1</title>
-      <link>https://zweiro.github.io/lab-veille-tech/tags/tag-1/</link>
+      <title>Apprentissage</title>
+      <link>https://zweiro.github.io/lab-veille-tech/tags/apprentissage/</link>
       <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
       
-      <guid>https://zweiro.github.io/lab-veille-tech/tags/tag-1/</guid>
+      <guid>https://zweiro.github.io/lab-veille-tech/tags/apprentissage/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tag 2</title>
-      <link>https://zweiro.github.io/lab-veille-tech/tags/tag-2/</link>
+      <title>Configuration</title>
+      <link>https://zweiro.github.io/lab-veille-tech/tags/configuration/</link>
       <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
       
-      <guid>https://zweiro.github.io/lab-veille-tech/tags/tag-2/</guid>
+      <guid>https://zweiro.github.io/lab-veille-tech/tags/configuration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://zweiro.github.io/lab-veille-tech/tags/devops/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Déploiement</title>
+      <link>https://zweiro.github.io/lab-veille-tech/tags/d%C3%A9ploiement/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/tags/d%C3%A9ploiement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Environnement de travail</title>
+      <link>https://zweiro.github.io/lab-veille-tech/tags/environnement-de-travail/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/tags/environnement-de-travail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://zweiro.github.io/lab-veille-tech/tags/git/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Motivation</title>
+      <link>https://zweiro.github.io/lab-veille-tech/tags/motivation/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/tags/motivation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Partage</title>
+      <link>https://zweiro.github.io/lab-veille-tech/tags/partage/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/tags/partage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://zweiro.github.io/lab-veille-tech/tags/portfolio/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/tags/portfolio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travail d&#39;équipe</title>
+      <link>https://zweiro.github.io/lab-veille-tech/tags/travail-d%C3%A9quipe/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/tags/travail-d%C3%A9quipe/</guid>
       <description></description>
     </item>
     

@@ -8,6 +8,34 @@
       <url>https://zweiro.github.io/lab-veille-tech/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://zweiro.github.io/lab-veille-tech/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://zweiro.github.io/lab-veille-tech/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 09 Jan 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://zweiro.github.io/lab-veille-tech/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expérimentation</title>
+      <link>https://zweiro.github.io/lab-veille-tech/categories/exp%C3%A9rimentation/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/categories/exp%C3%A9rimentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vie de développeur</title>
+      <link>https://zweiro.github.io/lab-veille-tech/categories/vie-de-d%C3%A9veloppeur/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/categories/vie-de-d%C3%A9veloppeur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vulgarisation</title>
+      <link>https://zweiro.github.io/lab-veille-tech/categories/vulgarisation/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/categories/vulgarisation/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

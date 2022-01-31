@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tag 1 on Planète Dev</title>
-    <link>https://zweiro.github.io/lab-veille-tech/tags/tag-1/</link>
-    <description>Recent content in Tag 1 on Planète Dev</description>
+    <title>Vie de développeur on Planète Dev</title>
+    <link>https://zweiro.github.io/lab-veille-tech/categories/vie-de-d%C3%A9veloppeur/</link>
+    <description>Recent content in Vie de développeur on Planète Dev</description>
     <image>
       <url>https://zweiro.github.io/lab-veille-tech/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://zweiro.github.io/lab-veille-tech/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 09 Jan 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://zweiro.github.io/lab-veille-tech/tags/tag-1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jan 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://zweiro.github.io/lab-veille-tech/categories/vie-de-d%C3%A9veloppeur/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Construire une bonne présence sur GitHub</title>
       <link>https://zweiro.github.io/lab-veille-tech/posts/presence-github/</link>
@@ -17,24 +17,6 @@
       
       <guid>https://zweiro.github.io/lab-veille-tech/posts/presence-github/</guid>
       <description>Depuis quelques années, GitHub est devenu une plateforme de référence dans le domaine du développement web. Si elle était dans un premier temps très axée sur la collaboration entre équipes et projets, elle s’est peu à peu imposée comme outil de présentation de son savoir-faire au reste du monde ; un portfolio qui se tient à jour automatiquement finalement. Mais comment obtenir le meilleur de cette opportunité ? Voici un petit résumé de mes lectures</description>
-    </item>
-    
-    <item>
-      <title>DevOps, Qu’est-ce que c’est ?</title>
-      <link>https://zweiro.github.io/lab-veille-tech/posts/dev-ops/</link>
-      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
-      
-      <guid>https://zweiro.github.io/lab-veille-tech/posts/dev-ops/</guid>
-      <description>DevOps est un terme qui revient de plus en plus sur le marché du développement. Si l’on regarde plus précisément les offres d’emploi, on constate que les connaissances requises sont très larges et que le poste est à responsabilité. Mais que représente vraiment un DevOps ? Voici un résumé de ma lecture</description>
-    </item>
-    
-    <item>
-      <title>Expérimentation : Écrire des messages de commit efficaces</title>
-      <link>https://zweiro.github.io/lab-veille-tech/posts/exp-ecrire-commits/</link>
-      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
-      
-      <guid>https://zweiro.github.io/lab-veille-tech/posts/exp-ecrire-commits/</guid>
-      <description>Les logiciels de versioning ont révolutionné la manière de travailler en équipe. Chacun peut désormais travailler facilement sur sa machine et partager son travail sans risque de détruire le travail des autres développeurs. En cas d’erreur, il est possible de remonter dans l’historique des versions pour en identifier l’origine. Cet article résume les tests de configuration de l’éditeur et les choix de rédaction pour un bon message de commit.</description>
     </item>
     
     <item>
