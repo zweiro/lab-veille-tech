@@ -22,8 +22,8 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 cover:
     image: "https://cdn.pixabay.com/photo/2020/06/12/14/07/code-5290465_960_720.jpg" # image path/url
-    alt: "Image test" # alt text
-    caption: "Image test" # display caption under cover
+    # alt: "Image test" # alt text
+    # caption: "Image test" # display caption under cover
     relative: true # when using page bundles set this to true
     hidden: false # only hide on current single page
 ---
@@ -32,6 +32,8 @@ cover:
 Il n’y a que ceux qui ne font rien qui ne font pas d’erreurs alors il n’y aucun problème si certains ne sont pas parfaits. Au contraire, les personnes qui s’intéresse à notre profil veulent savoir ce à qui on a déjà touché comme technologies et quelle est notre capacité à apprendre de nouvelles compétences. Cela montre également notre motivation à se former pour de nouveaux langages, technologies ou frameworks.
 Être actif sur la plateforme
 Les contributions sont également affichées sur les profils, ce qui permet de se faire une bonne idée de l’activité annuelle des gens. Avoir une haute activité garantit une pratique régulière et donc une certaine efficacité. Voici mon graphique d’activité (Il est pourrait être mieux en effet 😉)
+
+![GitHub commits stats graph](https://github.com/zweiro/lab-veille-tech/blob/main/resources/_gen/images/github_stats.png?raw=true)
  
 ## Mettre en avant les projets dont on est fiers
 GitHub offre la possibilité d’épingler des projets que le voudrait mettre en avant sur notre profil. Les personnes qui s’intéressent à nos compétences n’ont souvent pas le temps de parcourir tous nos projets et savent donc plus facilement quels projets analyser pour voir la qualité du développement.
@@ -39,6 +41,7 @@ GitHub offre la possibilité d’épingler des projets que le voudrait mettre en
 Le code et les fonctionnalités d’un produit sont évidement très important, car ils définissent l’expérience de l'utilisateur dans son utilisation. On arrive souvent au moment où l’on estime être au bout de son projet, mais il ne faut pas oublier que souvent de belles améliorations peuvent être apportées. Pourquoi ne pas ajouter de nouvelles fonctionnalités pour lui donner une autre dimension ? ; ajouter une belle description à l’aide d’un README ? ; construire une belle communication autour du projet pour créer de l’engagement des utilisateurs ?
 ## Construire un profil engageant 
 Il est maintenant possible de créer un README propre à son profil en créant un projet au nom de notre compte utilisateur. Cela permet de nous présenter, décrire nos compétences et amorcer les présentations avec ceux qui voudraient nous connaître.
+![GitHub commits stats graph](https://github.com/zweiro/lab-veille-tech/blob/main/resources/_gen/images/github_profile.png?raw=true)
  
 ## Ce que j’en ressors pour mon futur professionnel
 GitHub est un outil qu’il faut maîtrise en 2022. Voici donc les clés essentielles que je ressors de mes lectures :
