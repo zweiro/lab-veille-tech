@@ -1,0 +1,172 @@
+<!doctype html><html lang=fr dir=auto>
+<head><meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=robots content="index, follow">
+<title>Expérimentation : Écrire des messages de commit efficaces | Planète Dev</title>
+<meta name=keywords content="Tag 1,Tag 2">
+<meta name=description content="Les logiciels de versioning ont révolutionné la manière de travailler en équipe. Chacun peut désormais travailler facilement sur sa machine et partager son travail sans risque de détruire le travail des autres développeurs. En cas d’erreur, il est possible de remonter dans l’historique des versions pour en identifier l’origine. Cet article résume les tests de configuration de l’éditeur et les choix de rédaction pour un bon message de commit.">
+<meta name=author content="Robin Z.">
+<link rel=canonical href=https://canonical.url/to/page>
+<link crossorigin=anonymous href=/lab-veille-tech/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
+<link rel=preload href=https://i.ibb.co/Vv4XHFR/main-logo.png as=image>
+<script defer crossorigin=anonymous src=/lab-veille-tech/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
+<link rel=icon href=https://zweiro.github.io/lab-veille-tech/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=https://i.ibb.co/Nmc31wj/favicon-16x16.png>
+<link rel=icon type=image/png sizes=32x32 href=https://zweiro.github.io/lab-veille-tech/favicon-32x32.png>
+<link rel=apple-touch-icon href=https://zweiro.github.io/lab-veille-tech/%3Clink%20/%20abs%20url%3E>
+<link rel=mask-icon href=https://zweiro.github.io/lab-veille-tech/%3Clink%20/%20abs%20url%3E>
+<meta name=theme-color content="#2e2e33">
+<meta name=msapplication-TileColor content="#2e2e33">
+<meta name=generator content="Hugo 0.91.2">
+<noscript>
+<style>#theme-toggle,.top-link{display:none}</style>
+<style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
+</noscript><meta property="og:title" content="Expérimentation : Écrire des messages de commit efficaces">
+<meta property="og:description" content="Les logiciels de versioning ont révolutionné la manière de travailler en équipe. Chacun peut désormais travailler facilement sur sa machine et partager son travail sans risque de détruire le travail des autres développeurs. En cas d’erreur, il est possible de remonter dans l’historique des versions pour en identifier l’origine. Cet article résume les tests de configuration de l’éditeur et les choix de rédaction pour un bon message de commit.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://zweiro.github.io/lab-veille-tech/posts/exp-ecrire-commits/">
+<meta property="og:image" content="https://zweiro.github.io/lab-veille-tech/posts/exp-ecrire-commits/https:/cdn.pixabay.com/photo/2018/01/11/21/27/laptop-3076957_960_720.jpg"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2022-01-09T11:30:03+00:00">
+<meta property="article:modified_time" content="2022-01-09T11:30:03+00:00"><meta property="og:site_name" content="Planète Dev">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://zweiro.github.io/lab-veille-tech/posts/exp-ecrire-commits/https:/cdn.pixabay.com/photo/2018/01/11/21/27/laptop-3076957_960_720.jpg">
+<meta name=twitter:title content="Expérimentation : Écrire des messages de commit efficaces">
+<meta name=twitter:description content="Les logiciels de versioning ont révolutionné la manière de travailler en équipe. Chacun peut désormais travailler facilement sur sa machine et partager son travail sans risque de détruire le travail des autres développeurs. En cas d’erreur, il est possible de remonter dans l’historique des versions pour en identifier l’origine. Cet article résume les tests de configuration de l’éditeur et les choix de rédaction pour un bon message de commit.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://zweiro.github.io/lab-veille-tech/posts/"},{"@type":"ListItem","position":2,"name":"Expérimentation : Écrire des messages de commit efficaces","item":"https://zweiro.github.io/lab-veille-tech/posts/exp-ecrire-commits/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Expérimentation : Écrire des messages de commit efficaces","name":"Expérimentation : Écrire des messages de commit efficaces","description":"Les logiciels de versioning ont révolutionné la manière de travailler en équipe. Chacun peut désormais travailler facilement sur sa machine et partager son travail sans risque de détruire le travail des autres développeurs. En cas d’erreur, il est possible de remonter dans l’historique des versions pour en identifier l’origine. Cet article résume les tests de configuration de l’éditeur et les choix de rédaction pour un bon message de commit.","keywords":["Tag 1","Tag 2"],"articleBody":"Pourquoi écrire un bon message de commit ? Écrire de bons messages de commit est nécessaire pour un travail de qualité en équipe. Cela demande un minimum de temps, mais permet potentiellement d’en gagner énormément dans le futur. Parmi les avantages d’écrire un bon message, on a :\n Retrouver l’origine de futures erreurs Permettre aux autres développeurs de comprendre ce que l’on a fait Pouvoir revenir à tout moment à une version précise du produit  Règles importantes dans la rédaction de messages de commit (Tirées de l’article cité dans les sources)  Un message de commit est composé d’un en-tête, d’un corps et d’un pied de page Le sujet est limité à 50 caractères o\tLe sujet est une ligne qui résume au mieux tous les changements présents dans le commit Mettre une majuscule à la première lettre du sujet de l’en-tête Éviter le point « . » en fin de la ligne d’en-tête Ajouter une ligne blanche entre l’en-tête, le corps de texte et le pied de page Limiter la largeur du corps de texte à 72 caractères Écrire le corps de texte sous forme de liste à puce Utiliser l’impératif Décrire quoi et pourquoi mais pas comment Le pied de page peut faire référence à un éventuel N° de ticket du support  Il est possible de configurer son éditeur VSCode pour respecter au mieux ces règles. C’est parti pour l’expérimentation. On commence définir VSCode comme éditeur git par défaut : git config –global core.editor « code –wait » Ensuite nous allons ajouter deux lignes qui vont visuellement délimiter les 50 et 72 caractères dont on a parlé précédemment. Pour cela il faut appuyer sur CTRL + Shift + P et taper « Open user setting JSON ». On peut maintenant ajouter les quelques lignes suivantes :\nIl est maintenant temps de tester en faisant « git commit »\nMagnifique, j’obtiens 2 lignes visuelles qui indiquent les fameux 50 (en vert) et 72 (en orange) caractères ! On peut maintenant remplir pour enfin faire un commit « digne de ce nom » :\nCela démontre déjà beaucoup plus ce qui a été fait, mais un aspect visuel peut encore venir améliorer la compréhension. Il s’agit du projet Gitmoji construit principalement par Carlos Cuesta et qui propose d’ajouter un emoji aux lignes du commit. Cela est malin, car les images marquent toujours plus les esprits que les mots. Voici donc ce que donne notre commit modifié :\nVoici donc à quoi cela ressemble une fois sur GitHub :\nBeaucoup plus parlant que ce dont on a l’habitude n’est-ce pas ? 😊 Ce que j’en ressors pour mon futur professionnel La collaboration est un élément essentiel dans les équipes de développement et les outils de versioning sont des éléments clés de celle-ci. Prendre le temps de faire de la documentation de qualité représente un gain de temps énorme pour le futur et je suis réellement heureux d’avoir appris les règles citées dans cet article. Je me réjouis beaucoup d’appliquer tout cela à l’avenir.\nSource https://medium.com/@hritik.jaiswal/how-to-write-a-good-commit-message-9d2d533b9052 Dans cet article Medium, HRITIK JAISWAL propose une compilation de ses connaissances dans le domaine de la rédaction de commit en alliant humour et simplicité.\n","wordCount":"528","inLanguage":"fr","image":"https://zweiro.github.io/lab-veille-tech/posts/exp-ecrire-commits/https:/cdn.pixabay.com/photo/2018/01/11/21/27/laptop-3076957_960_720.jpg","datePublished":"2022-01-09T11:30:03Z","dateModified":"2022-01-09T11:30:03Z","author":{"@type":"Person","name":"Robin Z."},"mainEntityOfPage":{"@type":"WebPage","@id":"https://zweiro.github.io/lab-veille-tech/posts/exp-ecrire-commits/"},"publisher":{"@type":"Organization","name":"Planète Dev","logo":{"@type":"ImageObject","url":"https://zweiro.github.io/lab-veille-tech/favicon.ico"}}}</script>
+</head>
+<body id=top>
+<script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
+<header class=header>
+<nav class=nav>
+<div class=logo>
+<a href=https://zweiro.github.io/lab-veille-tech/ accesskey=h title="Planète Dev (Alt + H)">
+<img src=https://i.ibb.co/Vv4XHFR/main-logo.png alt=logo aria-label=logo height=35>Planète Dev</a>
+<span class=logo-switches>
+<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+</button>
+</span>
+</div>
+<ul id=menu>
+<li>
+<a href=https://zweiro.github.io/lab-veille-tech/about/ title="À propos">
+<span>À propos</span>
+</a>
+</li>
+<li>
+<a href=https://zweiro.github.io/lab-veille-tech/categories/ title=Catégories>
+<span>Catégories</span>
+</a>
+</li>
+<li>
+<a href=https://zweiro.github.io/lab-veille-tech/tags/ title=Tags>
+<span>Tags</span>
+</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=main>
+<article class=post-single>
+<header class=post-header>
+<div class=breadcrumbs><a href=https://zweiro.github.io/lab-veille-tech/>Accueil</a>&nbsp;»&nbsp;<a href=https://zweiro.github.io/lab-veille-tech/posts/>Posts</a></div>
+<h1 class=post-title>
+Expérimentation : Écrire des messages de commit efficaces
+</h1>
+<div class=post-description>
+Les logiciels de versioning ont révolutionné la manière de travailler en équipe. Chacun peut désormais travailler facilement sur sa machine et partager son travail sans risque de détruire le travail des autres développeurs. En cas d’erreur, il est possible de remonter dans l’historique des versions pour en identifier l’origine. Cet article résume les tests de configuration de l’éditeur et les choix de rédaction pour un bon message de commit.
+</div>
+<div class=post-meta><span title="2022-01-09 11:30:03 +0000 UTC">janvier 9, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Robin Z.
+</div>
+</header>
+<figure class=entry-cover><img loading=lazy src=https://cdn.pixabay.com/photo/2018/01/11/21/27/laptop-3076957_960_720.jpg alt>
+</figure><div class=toc>
+<details>
+<summary accesskey=c title="(Alt + C)">
+<span class=details>Table des Matières</span>
+</summary>
+<div class=inner><ul>
+<li>
+<a href=#pourquoi-%c3%a9crire-un-bon-message-de-commit- aria-label="Pourquoi écrire un bon message de commit ?">Pourquoi écrire un bon message de commit ?</a></li>
+<li>
+<a href=#r%c3%a8gles-importantes-dans-la-r%c3%a9daction-de-messages-de-commit-tir%c3%a9es-de-larticle-cit%c3%a9-dans-les-sources aria-label="Règles importantes dans la rédaction de messages de commit (Tirées de l’article cité dans les sources)">Règles importantes dans la rédaction de messages de commit (Tirées de l’article cité dans les sources)</a></li>
+<li>
+<a href=#il-est-possible-de-configurer-son-%c3%a9diteur-vscode-pour-respecter-au-mieux-ces-r%c3%a8gles-cest-parti-pour-lexp%c3%a9rimentation aria-label="Il est possible de configurer son éditeur VSCode pour respecter au mieux ces règles. C’est parti pour l’expérimentation.">Il est possible de configurer son éditeur VSCode pour respecter au mieux ces règles. C’est parti pour l’expérimentation.</a></li>
+<li>
+<a href=#source aria-label=Source>Source</a>
+</li>
+</ul>
+</div>
+</details>
+</div>
+<div class=post-content><h2 id=pourquoi-écrire-un-bon-message-de-commit->Pourquoi écrire un bon message de commit ?<a hidden class=anchor aria-hidden=true href=#pourquoi-écrire-un-bon-message-de-commit->#</a></h2>
+<p>Écrire de bons messages de commit est nécessaire pour un travail de qualité en équipe. Cela demande un minimum de temps, mais permet potentiellement d’en gagner énormément dans le futur. Parmi les avantages d’écrire un bon message, on a :</p>
+<ul>
+<li>Retrouver l’origine de futures erreurs</li>
+<li>Permettre aux autres développeurs de comprendre ce que l’on a fait</li>
+<li>Pouvoir revenir à tout moment à une version précise du produit</li>
+</ul>
+<h2 id=règles-importantes-dans-la-rédaction-de-messages-de-commit-tirées-de-larticle-cité-dans-les-sources>Règles importantes dans la rédaction de messages de commit (Tirées de l’article cité dans les sources)<a hidden class=anchor aria-hidden=true href=#règles-importantes-dans-la-rédaction-de-messages-de-commit-tirées-de-larticle-cité-dans-les-sources>#</a></h2>
+<ul>
+<li>Un message de commit est composé d’un en-tête, d’un corps et d’un pied de page</li>
+<li>Le sujet est limité à 50 caractères
+o Le sujet est une ligne qui résume au mieux tous les changements présents dans le commit</li>
+<li>Mettre une majuscule à la première lettre du sujet de l’en-tête</li>
+<li>Éviter le point « . » en fin de la ligne d’en-tête</li>
+<li>Ajouter une ligne blanche entre l’en-tête, le corps de texte et le pied de page</li>
+<li>Limiter la largeur du corps de texte à 72 caractères</li>
+<li>Écrire le corps de texte sous forme de liste à puce</li>
+<li>Utiliser l’impératif</li>
+<li>Décrire quoi et pourquoi mais pas comment</li>
+<li>Le pied de page peut faire référence à un éventuel N° de ticket du support</li>
+</ul>
+<h2 id=il-est-possible-de-configurer-son-éditeur-vscode-pour-respecter-au-mieux-ces-règles-cest-parti-pour-lexpérimentation>Il est possible de configurer son éditeur VSCode pour respecter au mieux ces règles. C’est parti pour l’expérimentation.<a hidden class=anchor aria-hidden=true href=#il-est-possible-de-configurer-son-éditeur-vscode-pour-respecter-au-mieux-ces-règles-cest-parti-pour-lexpérimentation>#</a></h2>
+<p>On commence définir VSCode comme éditeur git par défaut :
+git config –global core.editor « code –wait »
+Ensuite nous allons ajouter deux lignes qui vont visuellement délimiter les 50 et 72 caractères dont on a parlé précédemment. Pour cela il faut appuyer sur CTRL + Shift + P et taper « Open user setting JSON ». On peut maintenant ajouter les quelques lignes suivantes :</p>
+<p><img loading=lazy src="https://github.com/zweiro/lab-veille-tech/blob/main/resources/_gen/images/config.png?raw=true" alt="VSCode config for rulers">
+</p>
+<p>Il est maintenant temps de tester en faisant « git commit »</p>
+<p><img loading=lazy src="https://github.com/zweiro/lab-veille-tech/blob/main/resources/_gen/images/empty-commit.png?raw=true" alt="GitHub commits stats graph">
+</p>
+<p>Magnifique, j’obtiens 2 lignes visuelles qui indiquent les fameux 50 (en vert) et 72 (en orange) caractères !
+On peut maintenant remplir pour enfin faire un commit « digne de ce nom » :</p>
+<p><img loading=lazy src="https://github.com/zweiro/lab-veille-tech/blob/main/resources/_gen/images/better-commit.png?raw=true" alt="GitHub commits stats graph">
+</p>
+<p>Cela démontre déjà beaucoup plus ce qui a été fait, mais un aspect visuel peut encore venir améliorer la compréhension. Il s’agit du projet Gitmoji construit principalement par Carlos Cuesta et qui propose d’ajouter un emoji aux lignes du commit. Cela est malin, car les images marquent toujours plus les esprits que les mots. Voici donc ce que donne notre commit modifié :</p>
+<p><img loading=lazy src="https://github.com/zweiro/lab-veille-tech/blob/main/resources/_gen/images/emoji-commit.png?raw=true" alt="GitHub commits stats graph">
+</p>
+<p>Voici donc à quoi cela ressemble une fois sur GitHub :</p>
+<p><img loading=lazy src="https://github.com/zweiro/lab-veille-tech/blob/main/resources/_gen/images/github-commit.png?raw=true" alt="GitHub commits stats graph">
+</p>
+<p>Beaucoup plus parlant que ce dont on a l’habitude n’est-ce pas ? 😊
+Ce que j’en ressors pour mon futur professionnel
+La collaboration est un élément essentiel dans les équipes de développement et les outils de versioning sont des éléments clés de celle-ci. Prendre le temps de faire de la documentation de qualité représente un gain de temps énorme pour le futur et je suis réellement heureux d’avoir appris les règles citées dans cet article. Je me réjouis beaucoup d’appliquer tout cela à l’avenir.</p>
+<h2 id=source>Source<a hidden class=anchor aria-hidden=true href=#source>#</a></h2>
+<p><a href=https://medium.com/@hritik.jaiswal/how-to-write-a-good-commit-message-9d2d533b9052>https://medium.com/@hritik.jaiswal/how-to-write-a-good-commit-message-9d2d533b9052</a>
+Dans cet article Medium, HRITIK JAISWAL propose une compilation de ses connaissances dans le domaine de la rédaction de commit en alliant humour et simplicité.</p>
+</div>
+<footer class=post-footer>
+<ul class=post-tags>
+<li><a href=https://zweiro.github.io/lab-veille-tech/tags/tag-1/>Tag 1</a></li>
+<li><a href=https://zweiro.github.io/lab-veille-tech/tags/tag-2/>Tag 2</a></li>
+</ul>
+</footer>
+</article>
+</main>
+<footer class=footer>
+<span>&copy; 2022 <a href=https://zweiro.github.io/lab-veille-tech/>Planète Dev</a></span>
+<span>
+Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a>
+</span>
+</footer>
+<a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a>
+<script>let menu=document.getElementById('menu');menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
+<script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script>
+<script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
+</body>
+</html>

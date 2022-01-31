@@ -19,5 +19,41 @@
       <description>Depuis quelques années, GitHub est devenu une plateforme de référence dans le domaine du développement web. Si elle était dans un premier temps très axée sur la collaboration entre équipes et projets, elle s’est peu à peu imposée comme outil de présentation de son savoir-faire au reste du monde ; un portfolio qui se tient à jour automatiquement finalement. Mais comment obtenir le meilleur de cette opportunité ? Voici un petit résumé de mes lectures</description>
     </item>
     
+    <item>
+      <title>DevOps, Qu’est-ce que c’est ?</title>
+      <link>https://zweiro.github.io/lab-veille-tech/posts/dev-ops/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/posts/dev-ops/</guid>
+      <description>DevOps est un terme qui revient de plus en plus sur le marché du développement. Si l’on regarde plus précisément les offres d’emploi, on constate que les connaissances requises sont très larges et que le poste est à responsabilité. Mais que représente vraiment un DevOps ? Voici un résumé de ma lecture</description>
+    </item>
+    
+    <item>
+      <title>Expérimentation : Écrire des messages de commit efficaces</title>
+      <link>https://zweiro.github.io/lab-veille-tech/posts/exp-ecrire-commits/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/posts/exp-ecrire-commits/</guid>
+      <description>Les logiciels de versioning ont révolutionné la manière de travailler en équipe. Chacun peut désormais travailler facilement sur sa machine et partager son travail sans risque de détruire le travail des autres développeurs. En cas d’erreur, il est possible de remonter dans l’historique des versions pour en identifier l’origine. Cet article résume les tests de configuration de l’éditeur et les choix de rédaction pour un bon message de commit.</description>
+    </item>
+    
+    <item>
+      <title>Les clés du télétravail</title>
+      <link>https://zweiro.github.io/lab-veille-tech/posts/cles-teletravail/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/posts/cles-teletravail/</guid>
+      <description>Janvier 2019, on fait connaissance avec la désormais tristement célèbre Covid-19. Dans les mois suivent, la crise sanitaire nous frappe de plein fouet et avec elle, un confinement inévitable et le télétravail obligatoire. Si certains le pratiquaient déjà avant, ils restaient une minorité de la population et beaucoup ont dû découvrir ce mode de travail qui a des avantages et forcément… des désavantages. Mais au fond, comment faire pour être efficace chez soi tout en gardant une bonne santé physique et psychologique ? Voici un petit résumé de mes lectures : Premièrement, travail dans l’informatique et plus précisément dans le développement web nous offre l’opportunité d’expérimenter le télétravail. Chose qui n’est pas possible pour tous les métiers. Voici un petit tour des avantages et inconvénients qui sont évoqués dans les articles en annexe </description>
+    </item>
+    
+    <item>
+      <title>Progresser au quotidien en tant que développeur</title>
+      <link>https://zweiro.github.io/lab-veille-tech/posts/progresser-developpeur/</link>
+      <pubDate>Sun, 09 Jan 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://zweiro.github.io/lab-veille-tech/posts/progresser-developpeur/</guid>
+      <description>On le sait, il est impossible de tout savoir sur le développement et la programmation en général. C’est un domaine beaucoup trop vaste pour une seule personne et c’est aussi ce qui en fait un métier extrêmement passionnant. Néanmoins, plus on a une vue d’ensemble de ces compétences, plus les choix aux moments de réaliser un projet risquent d’être judicieux. Mais alors, comment faire pour progresser au quotidien en tant que développeur ? Voici un petit résumé de mes lectures :</description>
+    </item>
+    
   </channel>
 </rss>
